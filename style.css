@@ -1,0 +1,61 @@
+body { 
+	color: #eddea8;/*color permet de changer la couleur de notre texte. On pourra utiliser le nom anglais d'une couleur, son code hexadécimal # ou encore le code RGB  */
+    background-color: #afc3e0;/* background color permet de changer la couleur de fond de nos éléments */
+    font-family:serif;/* font-family permet de changer la police de notre site c'est à dire le style d'écriture. On peut choisir plusiuers valeurs entre serif, sans-sérif, cursive et monospace */
+    line-height: 20px;/*line- height permet de modifier l'espace qu'il y a entre deux lignes de texte */
+    text-align:center;/*grace à text align, il est possible de changer la position du texte en le mettant au centre avec la valuer center, à gauche avec left ou à droite avec right. */
+    
+}
+
+h1{ 
+   color:pink; 
+   font-family:fantasy;
+   font-size: 50px;
+   font-variant: small-caps;/* font-variant, avec valeur small-caps permet de tansformer toutes les lettres en petites majuscules */
+   letter-spacing: 3 px;/* pour pouvoir augmenter l'espace entre les lettres, on utilise la propriété letter-spacing */
+   text-align:center;
+   
+   }
+
+h2{ 
+	color:pink ;
+	font-weight: lighter;/*grace à font-weight il est possible de modofier l'épaisseur des lettres, lighter pour les affiner, et bolder pour les épaissir */
+ }
+
+ a {
+ 	color:pink;
+ 	text-decoration: none; /* le code text-decoration avec pour valeur none permet de supprimer la barre de soulignenement en dessous du format par défaut des liens */
+
+ }
+
+ a:hover{/* grace à cette séléction il est possible de modifier la couleur du lien lorsque l'on passe notre souris dessus.*/
+ 	color:#0071a6;
+ }
+
+ div{
+ 	border:solid;
+    margin: 25px 150px; /*margin correspond à la marge extérieure */
+    padding:20px ;/* pading correspond à la marge intérieure */
+     border-radius:20px;/* border-radius permet d'arrondir les angles de nos bords */
+     box-shadow: 10px 10px 10px ;/* box shadow permet d'ajouter une ombre à nos éléments*/
+
+
+ 	 }
+
+ 	 iframe{
+ 	 	border-radius: 10px;
+
+ 	 }
+
+ 	 img{
+ 	 	border-radius: 10px;
+ 	 }
+
+
+
+ 	 .bleu{
+ 	 	color:#beaff0;
+ 	 	font-family: inherit;
+ 	 	line-height: 5px
+
+ 	 }
